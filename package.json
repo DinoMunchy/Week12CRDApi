@@ -1,0 +1,12 @@
+{
+  "name": "NFL Team Manager",
+  "version": "1.0.0",
+  "description": "List of NFL Teams",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server --watch db.json --port 3000"
+  },
+  "dependencies": {
+    "json-server": "^0.17.4"
+  }
+} 

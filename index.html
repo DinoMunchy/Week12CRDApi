@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NFL Teams Manager</title>
+    <!-- Bootstrap CSS for responsive design and pre-built components -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS for specific styling -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Main container with top margin -->
+    <div class="container mt-5">
+        <!-- Page title -->
+        <h1 class="text-center mb-4">NFL Teams Manager</h1>
+        
+        <!-- Form card for adding new teams -->
+        <div class="card mb-4">
+            <div class="card-header">
+                <h3>Add New Team</h3>
+            </div>
+            <div class="card-body">
+                <!-- Form for collecting team information -->
+                <form id="teamForm">
+                    <!-- Team name input -->
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Team Name</label>
+                        <input type="text" class="form-control" id="name" required>
+                    </div>
+                    <!-- Conference selection dropdown -->
+                    <div class="mb-3">
+                        <label for="conference" class="form-label">Conference</label>
+                        <select class="form-select" id="conference" required>
+                            <option value="">Select Conference</option>
+                            <option value="AFC">AFC</option>
+                            <option value="NFC">NFC</option>
+                        </select>
+                    </div>
+                    <!-- Division selection dropdown -->
+                    <div class="mb-3">
+                        <label for="division" class="form-label">Division</label>
+                        <select class="form-select" id="division" required>
+                            <option value="">Select Division</option>
+                            <option value="North">North</option>
+                            <option value="South">South</option>
+                            <option value="East">East</option>
+                            <option value="West">West</option>
+                        </select>
+                    </div>
+                    <!-- City input -->
+                    <div class="mb-3">
+                        <label for="city" class="form-label">City</label>
+                        <input type="text" class="form-control" id="city" required>
+                    </div>
+                    <!-- Submit button -->
+                    <button type="submit" class="btn btn-primary">Add Team</button>
+                </form>
+            </div>
+        </div>
+
+        <!-- Teams list card -->
+        <div class="card">
+            <div class="card-header">
+                <h3>NFL Teams</h3>
+            </div>
+            <div class="card-body">
+                <!-- Container for dynamically generated team list -->
+                <div id="teamList" class="list-group">
+                    <!-- Teams will be dynamically added here by JavaScript -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JavaScript bundle for interactive components -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JavaScript for application logic -->
+    <script src="script.js"></script>
+</body>
+</html> 

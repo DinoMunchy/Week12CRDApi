@@ -1,0 +1,43 @@
+/* Card styling with subtle shadow for depth */
+.card {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Light gray background for card headers */
+.card-header {
+    background-color: #f8f9fa;
+}
+
+/* Team item styling with smooth transition effects */
+.team-item {
+    transition: all 0.3s ease;
+}
+
+/* Hover effect for team items */
+.team-item:hover {
+    background-color: #f8f9fa;
+}
+
+/* Delete button styling with opacity transition */
+.delete-btn {
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
+}
+
+/* Delete button hover effect */
+.delete-btn:hover {
+    opacity: 1;
+}
+
+/* Team name styling with blue color for emphasis */
+.team-name {
+    font-weight: 500;
+    margin-bottom: 0.25rem;
+    color: #0d6efd;
+}
+
+/* Team info styling with muted color for secondary information */
+.team-info {
+    color: #6c757d;
+    font-size: 0.9rem;
+} 

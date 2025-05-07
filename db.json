@@ -1,0 +1,25 @@
+{
+  "teams": [
+    {
+      "id": 1,
+      "name": "Kansas City Chiefs",
+      "conference": "AFC",
+      "division": "West",
+      "city": "Kansas City"
+    },
+    {
+      "id": 2,
+      "name": "San Francisco 49ers",
+      "conference": "NFC",
+      "division": "West",
+      "city": "San Francisco"
+    },
+    {
+      "name": "Jacksonville Jaguars",
+      "conference": "AFC",
+      "division": "South",
+      "city": "Jacksonville",
+      "id": 3
+    }
+  ]
+}
